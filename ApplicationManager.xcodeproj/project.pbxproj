@@ -14,6 +14,10 @@
 		1520FDE81B33E6D2000A5717 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520FDE71B33E6D2000A5717 /* Images.xcassets */; };
 		1520FDEB1B33E6D2000A5717 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1520FDE91B33E6D2000A5717 /* LaunchScreen.xib */; };
 		1520FDF71B33E6D2000A5717 /* ApplicationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520FDF61B33E6D2000A5717 /* ApplicationManagerTests.m */; };
+		1520FE011B33E798000A5717 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1520FE001B33E798000A5717 /* app.plist */; };
+		1520FE041B33E802000A5717 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520FE031B33E802000A5717 /* AppInfo.m */; };
+		1520FE071B33F411000A5717 /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520FE061B33F411000A5717 /* AppView.m */; };
+		1520FE091B33F442000A5717 /* AppView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1520FE081B33F442000A5717 /* AppView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		1520FDF01B33E6D2000A5717 /* ApplicationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1520FDF51B33E6D2000A5717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1520FDF61B33E6D2000A5717 /* ApplicationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationManagerTests.m; sourceTree = "<group>"; };
+		1520FE001B33E798000A5717 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		1520FE021B33E802000A5717 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		1520FE031B33E802000A5717 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		1520FE051B33F411000A5717 /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppView.h; sourceTree = "<group>"; };
+		1520FE061B33F411000A5717 /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppView.m; sourceTree = "<group>"; };
+		1520FE081B33F442000A5717 /* AppView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,11 @@
 				1520FDDF1B33E6D2000A5717 /* AppDelegate.m */,
 				1520FDE11B33E6D2000A5717 /* ViewController.h */,
 				1520FDE21B33E6D2000A5717 /* ViewController.m */,
+				1520FE021B33E802000A5717 /* AppInfo.h */,
+				1520FE031B33E802000A5717 /* AppInfo.m */,
+				1520FE051B33F411000A5717 /* AppView.h */,
+				1520FE061B33F411000A5717 /* AppView.m */,
+				1520FE081B33F442000A5717 /* AppView.xib */,
 				1520FDE41B33E6D2000A5717 /* Main.storyboard */,
 				1520FDE71B33E6D2000A5717 /* Images.xcassets */,
 				1520FDE91B33E6D2000A5717 /* LaunchScreen.xib */,
@@ -96,6 +111,7 @@
 		1520FDDA1B33E6D2000A5717 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1520FE001B33E798000A5717 /* app.plist */,
 				1520FDDB1B33E6D2000A5717 /* Info.plist */,
 				1520FDDC1B33E6D2000A5717 /* main.m */,
 			);
@@ -199,8 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1520FE011B33E798000A5717 /* app.plist in Resources */,
 				1520FDE61B33E6D2000A5717 /* Main.storyboard in Resources */,
 				1520FDEB1B33E6D2000A5717 /* LaunchScreen.xib in Resources */,
+				1520FE091B33F442000A5717 /* AppView.xib in Resources */,
 				1520FDE81B33E6D2000A5717 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1520FDE31B33E6D2000A5717 /* ViewController.m in Sources */,
+				1520FE041B33E802000A5717 /* AppInfo.m in Sources */,
+				1520FE071B33F411000A5717 /* AppView.m in Sources */,
 				1520FDE01B33E6D2000A5717 /* AppDelegate.m in Sources */,
 				1520FDDD1B33E6D2000A5717 /* main.m in Sources */,
 			);
